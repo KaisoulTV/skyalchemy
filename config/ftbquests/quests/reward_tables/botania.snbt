@@ -1,0 +1,16 @@
+{
+	id: "4BB1916B16566E86"
+	order_index: 4
+	title: "botania"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:fertilizer", random_bonus: 6, weight: 100 }
+		{ item: "botania:black_lotus", weight: 10 }
+		{ item: "botania:blacker_lotus" }
+		{ item: "botania:teru_teru_bozu", weight: 10 }
+		{ item: "botania:thorn_chakram", random_bonus: 23, weight: 10 }
+		{ item: "botania:manasteel_ingot", random_bonus: 11, weight: 100 }
+		{ item: "botania:mana_pearl", random_bonus: 5, weight: 10 }
+		{ item: "botania:mana_diamond", random_bonus: 3, weight: 10 }
+	]
+}

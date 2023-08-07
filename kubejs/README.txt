@@ -1,0 +1,1 @@
+Everything in this folder or child folder is lisenced

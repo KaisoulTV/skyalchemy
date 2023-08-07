@@ -1,0 +1,31 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.worldselection.CreateWorldScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=345185%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=3451851%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = -10
+}
+

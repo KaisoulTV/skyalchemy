@@ -1,0 +1,15 @@
+{
+	"texture": "celestial:sky/overworld/objects/star_1.png",
+	"display": {
+		"scale": "2",
+		"pos_x": "0",
+		"pos_y": "0",
+		"pos_z": "0",
+		"distance": "100"
+	},
+	"rotation": {
+		"degrees_x": "#skyAngle + 180",
+		"degrees_y": "0",
+		"degrees_z": "15"
+	}
+}
