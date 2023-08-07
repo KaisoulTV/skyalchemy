@@ -1,0 +1,81 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.worldselection.SelectWorldScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = {"placeholder":"local","values":{"key":"selectWorld.select"}}
+}
+
+customization {
+  identifier = %id=346948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=504948%
+  action = setbuttonlabel
+  value = {"placeholder":"local","values":{"key":"selectWorld.newWorld"}}
+}
+
+customization {
+  identifier = %id=504948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=582972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=346972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=424972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=504972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+

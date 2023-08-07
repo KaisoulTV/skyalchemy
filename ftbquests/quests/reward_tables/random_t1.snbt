@@ -1,0 +1,23 @@
+{
+	id: "795E9F09CB346FCC"
+	order_index: 2
+	title: "random_t1"
+	loot_size: 1
+	rewards: [
+		{ item: "ars_nouveau:glyph_ignite" }
+		{ item: "ars_nouveau:glyph_underfoot" }
+		{ item: "ars_nouveau:glyph_bounce" }
+		{ item: "ars_nouveau:glyph_craft" }
+		{ item: "ars_nouveau:glyph_rune" }
+		{ item: "ars_nouveau:glyph_snare" }
+		{ item: "ars_nouveau:glyph_freeze" }
+		{ item: "ars_nouveau:glyph_summon_steed" }
+		{ item: "ars_nouveau:glyph_sensitive" }
+		{ item: "ars_nouveau:glyph_pickup" }
+		{ item: "ars_nouveau:glyph_launch" }
+		{ item: "ars_nouveau:glyph_dispel" }
+		{ item: "ars_nouveau:glyph_pull" }
+		{ item: "ars_nouveau:glyph_aquatic" }
+		{ item: "ars_nouveau:glyph_gust" }
+	]
+}

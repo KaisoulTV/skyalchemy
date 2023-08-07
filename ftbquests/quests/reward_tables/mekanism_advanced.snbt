@@ -1,0 +1,33 @@
+{
+	id: "0E45463096D4D1FE"
+	order_index: 1
+	title: "mekanism_advanced"
+	loot_size: 1
+	rewards: [
+		{
+			xp_levels: 15
+			type: "xp_levels"
+		}
+		{ item: "mekanism:qio_drive_base" }
+		{ item: "mekanism:qio_drive_hyper_dense" }
+		{ item: "mekanism:alloy_atomic", random_bonus: 2 }
+		{ item: "mekanism:ultimate_control_circuit", random_bonus: 2 }
+		{
+			xp: 100
+			type: "xp"
+			weight: 10
+		}
+		{ item: "mekanism:block_osmium", random_bonus: 2, weight: 10 }
+		{ item: "material_elements:steel_block", count: 3, random_bonus: 10, weight: 10 }
+		{ item: "minecraft:gold_block", count: 6, random_bonus: 2, weight: 2 }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "direction": "south"
+  // }
+  "spawn": null,
+  
+  "spawns": {
+    "default": [
+      [ 2, 4, 2 ]
+    ]
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "SkyAlchemy",
+      "desc": "The Island of Alchemists",
+      "file": "island.nbt",
+      "spawns": "default",
+      "direction": "south"
+    }
+  ]
+}

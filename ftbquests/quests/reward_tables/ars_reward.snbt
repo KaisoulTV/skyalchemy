@@ -1,0 +1,11 @@
+{
+	id: "6F12287EE4724339"
+	order_index: 3
+	title: "ars_reward"
+	loot_size: 1
+	rewards: [
+		{ item: "ars_nouveau:source_gem", random_bonus: 63 }
+		{ item: "ars_nouveau:source_berry", count: 6 }
+		{ item: "ars_nouveau:source_gem_block", random_bonus: 4 }
+	]
+}

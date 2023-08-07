@@ -1,0 +1,393 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = kubejs/assets/kubejs/pack_assets/menupic.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}+(({"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}-{"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button"}})/2)","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button"}}+{"placeholder":"elementheight","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button"}}+({"placeholder":"guiheight"}/56)","decimal":"false"}}
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/18","decimal":"false"}}
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 50
+  action = resizebutton
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/3.5","decimal":"false"}}
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-left
+  x = 5
+  action = movebutton
+  y = 231
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/18","decimal":"false"}}
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 50
+  action = resizebutton
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/4","decimal":"false"}}
+  height = 50
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}+(({"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}-{"placeholder":"elementwidth","values":{"id":"vanillabtn:376322"}})/2)","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"a1b970dc-c5d6-4e39-82b7-9d2a0aedc9ec1690984583661"}}+{"placeholder":"elementheight","values":{"id":"a1b970dc-c5d6-4e39-82b7-9d2a0aedc9ec1690984583661"}}+({"placeholder":"guiheight"}/56)","decimal":"false"}}
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/18","decimal":"false"}}
+  identifier = %id=376322%
+  width = 50
+  action = resizebutton
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/3.5","decimal":"false"}}
+  height = 50
+}
+
+customization {
+  identifier = %id=376322%
+  action = setbuttonlabel
+  value = Create
+}
+
+customization {
+  identifier = %id=376322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}+(({"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}-{"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_options_button"}})/2)","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:forge_titlescreen_mods_button"}}+{"placeholder":"elementheight","values":{"id":"vanillabtn:button_compatibility_id:forge_titlescreen_mods_button"}}+({"placeholder":"guiheight"}/56)","decimal":"false"}}
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/18","decimal":"false"}}
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 50
+  action = resizebutton
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/3.5","decimal":"false"}}
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}+(({"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}-{"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_quit_button"}})/2)","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_realms_button"}}+{"placeholder":"elementheight","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_realms_button"}}+({"placeholder":"guiheight"}/56)","decimal":"false"}}
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/18","decimal":"false"}}
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 50
+  action = resizebutton
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/3.5","decimal":"false"}}
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/button_hover.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}+(({"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}-{"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_language_button"}})/2)","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_options_button"}}+{"placeholder":"elementheight","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_options_button"}}+({"placeholder":"guiheight"}/56)","decimal":"false"}}
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/18","decimal":"false"}}
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 50
+  action = resizebutton
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/3.5","decimal":"false"}}
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}+(({"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}-{"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button"}})/2)","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"66305ff6-a479-4e32-9de0-5386bafa9a711690984220438"}}+{"placeholder":"elementheight","values":{"id":"66305ff6-a479-4e32-9de0-5386bafa9a711690984220438"}}","decimal":"false"}}
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/18","decimal":"false"}}
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 50
+  action = resizebutton
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/3.5","decimal":"false"}}
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}+(({"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}-{"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:forge_titlescreen_mods_button"}})/2)","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button"}}+{"placeholder":"elementheight","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button"}}+({"placeholder":"guiheight"}/56)","decimal":"false"}}
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/18","decimal":"false"}}
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 50
+  action = resizebutton
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/3.5","decimal":"false"}}
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}+(({"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}-{"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_realms_button"}})/2)","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:376322"}}+{"placeholder":"elementheight","values":{"id":"vanillabtn:376322"}}+({"placeholder":"guiheight"}/56)","decimal":"false"}}
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/18","decimal":"false"}}
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  width = 50
+  action = resizebutton
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/3.5","decimal":"false"}}
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+}
+
+customization {
+  advanced_height = {"placeholder":"guiheight"}
+  orientation = top-left
+  shape = rectangle
+  color = #000000
+  x = 0
+  width = 228
+  action = addshape
+  actionid = 133051f4-4512-477a-bad5-5d54a94d35b21690982343397
+  y = 0
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/3","decimal":"false"}}
+  height = 353
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 207
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 2951f911-ade5-47f4-86aa-8cc4d1da9eb01690856326709
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = f3858b52-9199-4699-bdb6-aa064e2308c21690856326721
+  y = 311
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 454
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = fb214f1a-96d0-42e3-8ec8-871347a5ffc31690856326721
+  y = 333
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 444
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 253b9dd8-2232-4604-9913-d362f5dfd5781690856326721
+  y = 188
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 204
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = f6f6ed53-b184-49bc-a6f6-6a377277960e1690856326722
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 54705ffa-6f5a-45c9-9b0f-4a5c154b24831690856326722
+  y = 0
+  height = 30
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}/2","decimal":"false"}}
+  path = kubejs/config/packicon.png
+  orientation = top-left
+  x = 0
+  width = 114
+  action = addtexture
+  actionid = 66305ff6-a479-4e32-9de0-5386bafa9a711690984220438
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}+(({"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}-{"placeholder":"elementwidth","values":{"id":"66305ff6-a479-4e32-9de0-5386bafa9a711690984220438"}})/2)","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}/2","decimal":"false"}}
+  height = 114
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/18","decimal":"false"}}
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/FBrBnTcRFH%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/kubejs/pack_assets/menu_background_2.png
+  label = Discord
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}+(({"placeholder":"elementwidth","values":{"id":"133051f4-4512-477a-bad5-5d54a94d35b21690982343397"}}-{"placeholder":"elementwidth","values":{"id":"a1b970dc-c5d6-4e39-82b7-9d2a0aedc9ec1690984583661"}})/2)","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/3.5","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_language_button"}}+{"placeholder":"elementheight","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_language_button"}}+({"placeholder":"guiheight"}/56)","decimal":"false"}}
+  loopbackgroundanimations = true
+  x = 0
+  width = 195
+  action = addbutton
+  actionid = a1b970dc-c5d6-4e39-82b7-9d2a0aedc9ec1690984583661
+  y = 0
+  backgroundnormal = kubejs/assets/kubejs/pack_assets/menu_background.png
+  height = 20
+}
+
