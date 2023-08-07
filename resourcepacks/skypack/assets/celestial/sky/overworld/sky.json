@@ -1,0 +1,30 @@
+{
+	"sky_objects": [
+		"moon_1",
+		"moon_2",
+		"sun",
+		"rings",
+		"star_1",
+		"star_2",
+		"stars",
+		"stars_blue",
+		"stars_blue_2"
+	],
+	"render_type": "normal",
+	"environment": {
+		"fog_color": "3b91a1",
+		"sky_color": "6ce6e1",
+		"twilight_color": "b23333",
+		"twilight_alpha": "1",
+		"clouds": {
+			"height": 128,
+			"color": "ffffff"
+		},
+		"fog": {
+			"has_thick_fog": false,
+			"fog_start": -1,
+			"fog_end": -1
+		},
+		"sky_darkness": "0"
+	}
+}
